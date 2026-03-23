@@ -1,18 +1,12 @@
-# C-programs
-Basic C programs for practice
-#include <stdio.h>
+# C Programs 💻
 
-int main() {
-    int n, i, fact = 1;
+This repository contains basic C programs for practice.
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+## 📂 Structure
+- C Programs
+  - factorial.c
+  - prime.c
+  - fibonacci.c
 
-    for(i = 1; i <= n; i++) {
-        fact = fact * i;
-    }
-
-    printf("Factorial = %d", fact);
-
-    return 0;
-}
+## 🚀 Goal
+Learning C programming and improving problem solving skills.
